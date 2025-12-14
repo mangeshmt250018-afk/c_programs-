@@ -1,4 +1,22 @@
 {
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build and Run (gcc with -lm)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "preLaunchTask": "C/C++: gcc build active file (with -lm)",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    }
+  ]
+}{
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
